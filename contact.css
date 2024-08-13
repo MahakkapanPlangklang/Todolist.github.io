@@ -1,0 +1,29 @@
+/* contact.css */
+
+/* General container styling */
+.container {
+    max-width: 800px; /* Set max width for the container */
+    margin: 0 auto; /* Center align the container */
+    padding: 20px; /* Add padding around the content */
+}
+
+/* Form styling */
+form {
+    margin-top: 20px; /* Margin at the top for the form */
+}
+
+/* Form inputs styling */
+input, textarea {
+    margin-bottom: 15px; /* Space between form inputs */
+}
+
+/* Footer styling */
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #343a40; /* Dark background for footer */
+    color: white; /* White text color */
+    text-align: center;
+    padding: 1rem 0; /* Padding around the text */
+}

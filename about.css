@@ -1,0 +1,46 @@
+/* General container styling */
+.container {
+    max-width: 800px; /* Set max width for the container */
+    margin: 0 auto; /* Center align the container */
+    padding: 20px; /* Add padding around the content */
+}
+
+/* Footer styling */
+.footer {/* about.css */
+
+    /* General container styling */
+    .container {
+        max-width: 800px; /* Set max width for the container */
+        margin: 0 auto; /* Center align the container */
+        padding: 20px; /* Add padding around the content */
+    }
+    
+    /* Heading styling */
+    h1, h2, h3 {
+        margin-bottom: 20px; /* Add space below headings */
+    }
+    
+    /* Paragraph styling */
+    p {
+        line-height: 1.6; /* Improve readability */
+    }
+    
+    /* Footer styling */
+    .footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background-color: #343a40; /* Dark background for footer */
+        color: white; /* White text color */
+        text-align: center;
+        padding: 1rem 0; /* Padding around the text */
+    }
+    
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #343a40; /* Dark background for footer */
+    color: white; /* White text color */
+    text-align: center;
+    padding: 1rem 0; /* Padding around the text */
+}

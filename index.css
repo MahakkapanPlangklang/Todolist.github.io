@@ -1,0 +1,80 @@
+/* index.css */
+
+/* General container styling */
+.container {
+    max-width: 800px; /* Set max width for the container */
+    margin: 0 auto; /* Center align the container */
+    padding: 20px; /* Add padding around the content */
+}
+
+/* Input group styling */
+.input-group {
+    max-width: 600px; /* Set max width for the input group */
+    margin: 20px auto; /* Center align and add margin */
+}
+
+/* Input field styling */
+#todo-input {
+    flex: 1; /* Allow input to take remaining space */
+}
+/* index.css */
+
+/* General container styling */
+.container {
+    max-width: 800px; /* Set max width for the container */
+    margin: 0 auto; /* Center align the container */
+    padding: 20px; /* Add padding around the content */
+}
+
+/* Input group styling */
+.input-group {
+    max-width: 600px; /* Set max width for the input group */
+    margin: 20px auto; /* Center align and add margin */
+}
+
+/* Input field styling */
+#todo-input {
+    flex: 1; /* Allow input to take remaining space */
+}
+
+/* Button styling */
+#add-btn {
+    flex: 0 0 auto; /* Button size is fixed */
+}
+
+/* List group styling */
+.list-group {
+    margin-top: 20px; /* Add space above the list */
+}
+
+/* Footer styling */
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #343a40; /* Dark background for footer */
+    color: white; /* White text color */
+    text-align: center;
+    padding: 1rem 0; /* Padding around the text */
+}
+
+/* Button styling */
+#add-btn {
+    flex: 0 0 auto; /* Button size is fixed */
+}
+
+/* List group styling */
+.list-group {
+    margin-top: 20px; /* Add space above the list */
+}
+
+/* Footer styling */
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #343a40; /* Dark background for footer */
+    color: white; /* White text color */
+    text-align: center;
+    padding: 1rem 0; /* Padding around the text */
+}

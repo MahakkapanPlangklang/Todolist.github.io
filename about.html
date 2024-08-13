@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="about.css">
+    <link rel="icon" href="https://www.pikpng.com/pngl/b/89-898900_notes-icon-png-icon-notes-clipart.png" type="image/x-icon">
+</head>
+<body>
+    <div id="navbar-container"></div>
+
+    <!-- Main content -->
+    <div class="container">
+        <h1>About Us</h1>
+        <p>Welcome to To-Do List, your ultimate task management tool. Our mission is to help you stay organized and productive by providing a simple yet effective to-do list application.</p>
+        <p>At To-Do List, we believe in the power of organization. Our application is designed to be user-friendly, allowing you to easily add, edit, and remove tasks as needed. Whether you're managing your daily errands or tracking long-term projects, our tool is here to assist you in achieving your goals.</p>
+        <p>Our team is dedicated to continually improving our application to meet your needs. We welcome your feedback and suggestions to make To-Do List even better. Thank you for choosing us to help you stay on top of your tasks!</p>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>&copy; 2024 To-Do List. All rights reserved.</p>
+    </div>
+
+    <!-- JavaScript to load navbar -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            fetch('navbar.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('navbar-container').innerHTML = data;
+                });
+        });
+    </script>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

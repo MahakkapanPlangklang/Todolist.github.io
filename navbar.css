@@ -1,0 +1,35 @@
+/* Adjust navbar padding to fit content */
+.navbar {
+    padding: 0.5rem 1rem; /* Adjust padding to make navbar more compact */
+    width: auto; /* Set width to auto to fit content width */
+}
+
+/* Adjust font size for the navbar brand */
+.navbar-brand {
+    font-size: 1.1rem; /* Set font size for brand text */
+}
+
+/* Adjust font size for navbar links */
+.nav-link {
+    font-size: 0.9rem; /* Set font size for link text */
+}
+
+/* Adjust font size for navbar links on larger screens */
+@media (min-width: 992px) {
+    .navbar-nav .nav-link {
+        font-size: 1rem; /* Set font size for link text on larger screens */
+    }
+}
+
+/* Adjust container to fit the width of the screen */
+.container {
+    max-width: 100%; /* Set maximum width to 100% of the screen width */
+    padding: 0; /* Remove padding to fit content better */
+}
+
+/* Align navbar items and adjust spacing */
+.navbar-nav {
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center align items vertically */
+    gap: 1rem; /* Set spacing between items */
+}

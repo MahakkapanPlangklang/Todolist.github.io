@@ -1,0 +1,64 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Input Group Styling */
+.input-group {
+    margin: 1rem auto; /* Center the input group and add space above and below */
+    max-width: 600px; /* Set a maximum width to the input group */
+    display: flex; /* Use flexbox for alignment */
+}
+
+.input-group .form-control {
+    flex: 1; /* Allow input to grow */
+    max-width: 75%; /* Make input slightly narrower */
+    border-radius: 0.25rem; /* Border radius for input field */
+    font-size: 1rem; /* Font size for input field */
+}
+
+.input-group .btn {
+    border-radius: 0.25rem; /* Border radius for button */
+    font-size: 1rem; /* Font size for button */
+    min-width: 5rem; /* Make button slightly narrower */
+}
+
+/* Adjust the width of the todo list */
+#todo-list {
+    margin: 0 auto; /* Center the list horizontally */
+    padding: 0; /* Remove default padding */
+    max-width: 90%; /* Set a maximum width for the list */
+    border-radius: 0.25rem; /* Optional: Add border radius for a rounded look */
+}
+
+/* Make list items have a bit more space */
+.list-group-item {
+    margin: 0.25rem 0; /* Add vertical spacing between list items */
+}
+
+/* Footer Styling */
+.footer {
+    background-color: #343a40; /* Dark background color */
+    color: #fff; /* White text color */
+    text-align: center;
+    padding: 1rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer p {
+    margin: 0; /* Remove margin from footer text */
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
